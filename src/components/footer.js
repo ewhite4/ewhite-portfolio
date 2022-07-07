@@ -1,22 +1,19 @@
 import React from "react";
+import { LogoGithubIcon } from '@primer/octicons-react';
 
 const Footer = () => {
     return (
         <footer>
             <div className="footer-container">
                 <h4> Evin White </h4>
-                <ul className="icons">
+                <ul className="icons" target="_blank">
                     <div>
-                        <li>
-                            < a href="https://github.com/ewhite4" target="_blank"></a>
-                            <img src={require(`../assets/GitHub.png`)} alt="github" width="5%"></img>
-                        </li>
+                                <a href="https://github.com/Moonman9/nerd_wallet" target="_blank">
+                                    <LogoGithubIcon size="small" aria-label="GitHub" />
+                                </a>                      
                     </div>
                     <div>
-                        <li>
-                            <a href="https://www.linkedin.com"></a>
-                            <img src={require(`../assets/linkedIN.png`)} alt="LinkedIn" width="5%"></img>
-                        </li>
+                            <a href="https://www.linkedin.com/in/evin-white-456b5b132/" target="_blank"></a>
                     </div>
                 </ul>
             </div>
